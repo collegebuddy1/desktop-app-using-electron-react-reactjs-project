@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="./css/style.css" />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+<body>
+
+ <nav style="padding:0px 30px;">
+    <div class="nav-wrapper">
+ 		 <a href="#" class="brand-logo">Todos</a>
+    </div>
+  </nav>
+
+<div class="container main" id="app">	
+
+  <!--innput area-->
+    
+<!--todolist-->
+</div>
+
+
+    <!--Import jQuery before materialize.js-->
+    <!--In Electron, this is the correct way to include jQuery-->
+ 
+<script>
+window.$ = window.jQuery = require('./js/jquery-2.1.1.min.js');
+window.Hammer = require('./js/hammer.min.js');
+</script>
+      <script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="./js/materialize.min.js"></script>
+      <script type="text/javascript" src="./js/app.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function() {
+            $('select').material_select();
+          });
+      </script>
+</body>
+</html>
